@@ -10,14 +10,14 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
+    <header className={clsx('hero hero--primary', styles.heroBanner)} styles={{}}>
+      <div className="container" >
+        <h1 className="hero__title" style={{font:"100px"}}>{siteConfig.title}</h1>
         <p className="hero__subtitle">
           Virtual environment for Cooperative, Connected, and Automated Mobility applications, <br /> 
           including digital twins of 5G-enabled Vehicular Communications Units
         </p>
-        <div className={styles.buttons}>
+        <div className={styles.buttons} style={{marginTop:"50px"}}>
           <Link
             className="button button--secondary"
             to="/docs/intro">
@@ -34,6 +34,13 @@ export default function Home() {
   return (
     <Layout>
       <HomepageHeader />
+      <div className={clsx(styles.ourTeam)}>
+        <div className="container">
+          <h1 className=''>Our Goals</h1>
+        </div>
+      </div>
+      <main>
+      </main>
       <div className={clsx(styles.ourTeam)}>
         <div className="container">
           <h1 className=''>Our Team</h1>

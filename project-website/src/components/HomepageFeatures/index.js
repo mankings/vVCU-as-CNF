@@ -26,6 +26,7 @@ const Orientadores = [
 const Alunos1 = [
   {
     title: 'Raquel Paradinha',
+    margin:"1000px",
     image : require('@site/static/img/paradinha.png').default,
     description: (
       <>
@@ -35,6 +36,7 @@ const Alunos1 = [
   },
   {
     title: 'Miguel Matos',
+    margin:"100px",
     image : require('@site/static/img/paradinha.png').default,
     description: (
       <>
@@ -44,6 +46,7 @@ const Alunos1 = [
   },
   {
     title: 'Tiago Sora',
+    margin:"100px",
     image : require('@site/static/img/paradinha.png').default,
     description: (
       <>
@@ -52,6 +55,7 @@ const Alunos1 = [
     ),
   },{
     title: 'Filipe Antão',
+    margin:"100px",
     image : require('@site/static/img/paradinha.png').default,
     description: (
       <>
@@ -61,6 +65,7 @@ const Alunos1 = [
   },
   {
     title: 'Paulo Pinto',
+    margin:"100px",
     image : require('@site/static/img/paradinha.png').default,
     description: (
       <>
@@ -70,9 +75,7 @@ const Alunos1 = [
   }
 ];
 
-
-
-function View6({image, title, description}) {
+function ViewO({image, title, description}) {
   return (
     <div className={clsx('col col--3')}>
       <div className="text--center">
@@ -85,7 +88,7 @@ function View6({image, title, description}) {
     </div>
   );
 }
-function View4({image, title, description}) {
+function ViewA({image, title, description}) {
   return (
     <div className={clsx('col mx-1 bg-success')}>
       <div className="text--center">
@@ -99,19 +102,18 @@ function View4({image, title, description}) {
   );
 }
 
-
 export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
         <div className="row d-flex justify-content-center">
           {Orientadores.map((props, idx) => (
-            <View6 key={idx} {...props} />
+            <ViewO key={idx} {...props} />
           ))}
         </div>
-        <div className="row">
+        <div className="row d-flex justify-content-center" style={{marginTop:"30px"}}>
           {Alunos1.map((props, idx) => (
-            <View4 key={idx} {...props} />
+            <ViewA key={idx} {...props} />
           ))}
         </div>
         

@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Quim Graçado',
+  title: 'vVCU-as-CNF',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -44,13 +44,6 @@ const config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -64,40 +57,31 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Quim Graçado',
+        title: 'vVCU-as-CNF',
         logo: {
-          src: 'img/logo.svg',
+          src: 'img/favicon.ico',
         },
         items: [
           {
-            // type: 'doc',
-            // docId: 'intro',
-            label: 'Docs',
-            position: 'right',
+            type: 'doc',
+            docId: 'intro',
+            label: 'Documentation',
+            position: 'left',
           },
           {
-            // to: '/blog',
-            label: 'Blog',
-            position: 'right'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
+            to: 'https://github.com/mankings/vVCU-as-CNF',
             label: 'GitHub',
-            position: 'right',
+            position: 'left',
           },
         ],
       },
       footer: {
+        logo:{
+          src: 'img/favicon.ico',
+        },
         style: 'dark',
         // links: [
-        //   {
-        //     title: 'Docs',
-        //     items: [
-        //       {
-        //         label: 'Tutorial',
-        //         to: '/docs/intro',
-        //       },
-        //     ],
-        //   },
+          
         //   {
         //     title: 'Community',
         //     items: [
@@ -119,17 +103,13 @@ const config = {
         //     title: 'More',
         //     items: [
         //       {
-        //         label: 'Blog',
-        //         to: '/blog',
-        //       },
-        //       {
         //         label: 'GitHub',
         //         href: 'https://github.com/facebook/docusaurus',
         //       },
         //     ],
         //   },
         // ],
-        // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © PI ${new Date().getFullYear()}`,
       },
       prism: {
         theme: lightCodeTheme,
