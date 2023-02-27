@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const Orientadores = [
   {},{
     title: 'Rafael Direito',
-    image : require('@site/static/img/paradinha.png').default,
+    image : require('@site/static/img/direito.png').default,
     description: (
       <>
         Advisor
@@ -14,7 +14,7 @@ const Orientadores = [
   },
   {
     title: 'João Almeida',
-    image : require('@site/static/img/paradinha.png').default,
+    image : require('@site/static/img/joaoAlmeida.png').default,
     description: (
       <>
         Advisor
@@ -37,7 +37,7 @@ const Alunos1 = [
   {
     title: 'Miguel Matos',
     margin:"100px",
-    image : require('@site/static/img/paradinha.png').default,
+    image : require('@site/static/img/manco.png').default,
     description: (
       <>
         DevOps Master
@@ -45,31 +45,31 @@ const Alunos1 = [
     ),
   },
   {
-    title: 'Tiago Sora',
+    title: 'Tiago Carvalho',
     margin:"100px",
-    image : require('@site/static/img/paradinha.png').default,
+    image : require('@site/static/img/tiago.png').default,
     description: (
       <>
         Architect
       </>
     ),
   },{
-    title: 'Filipe Antão',
+    title: 'Paulo Pinto',
     margin:"100px",
-    image : require('@site/static/img/paradinha.png').default,
+    image : require('@site/static/img/pp.png').default,
     description: (
       <>
-        Productor Owner
+        Architect
       </>
     ),
   },
   {
-    title: 'Paulo Pinto',
+    title: 'Filipe Antão',
     margin:"100px",
-    image : require('@site/static/img/paradinha.png').default,
+    image : require('@site/static/img/fantao.png').default,
     description: (
       <>
-        Existence
+        Productor Owner
       </>
     ),
   }
