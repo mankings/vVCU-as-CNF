@@ -6,6 +6,7 @@ import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
 
 import styles from "./index.module.css";
+import { OurGoals } from "../components/HomepageFeatures";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -41,7 +42,7 @@ export default function Home() {
       <div className={clsx(styles.ourTeam)}>
         <div className="container">
           <h1 className="">Our Goals</h1>
-          <img src="img/timeLine.png" />
+          <OurGoals />
         </div>
       </div>
       <main></main>
