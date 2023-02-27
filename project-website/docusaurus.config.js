@@ -20,6 +20,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "mankings", // Usually your GitHub org/user name.
   projectName: "vVcU-as-CNF", // Usually your repo name.
+  deploymentBranch: "website-deploy", // Branch where the website shall be deployed.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
