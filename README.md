@@ -1,3 +1,2 @@
 # vVCU-as-CNF
-
-#Zanza
+Zanza
