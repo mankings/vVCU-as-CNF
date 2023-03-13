@@ -4,14 +4,17 @@ sidebar_position: 1000
 
 # Glossary
 
+
 | Acronym | Denomination                                  | Reference |
 | ------- | --------------------------------------------- | --------- |
-| CNF     | Cloud-Native Network Function                 |           |
-| VCU     | Vehicular Communications Unit                 |           |
-| vVCU    | Virtual VCU                                   |           |
-| RSU     | Road Side Unit                                |           |
-| OBU     | On Board Unit                                 |           |
+| CAM     | Cooperative Awareness Message                 |           |
 | CCAM    | Cooperative, Connected and Automated Mobility |           |
-| MEC     | Multi-Access Edge Computing                   |           |
+| CNF     | Cloud-Native Network Function                 |           |
 | MANO    | Management and Orquestration                  |           |
-
+| MEC     | Multi-Access Edge Computing                   |           |
+| OBU     | On Board Unit                                 |           |
+| RSU     | Road Side Unit                                |           |
+| vOBU    | Virtual OBU                                   |           |
+| vRSU    | Virtual RSU                                   |           |
+| vVCU    | Virtual VCU                                   |           |
+| VCU     | Vehicular Communications Unit                 |           |
